@@ -89,10 +89,10 @@ int main() {
     char name1[11];
     char name2[11];
     int distance;
-    char choice = 'j';
+    char choice = 'y';
     int input_ok = 0;
 
-    while (choice == 'j') {
+    while (choice == 'y') {
         system("cls");
         printf("What is the name of the swimmer in lane one? ");
         scanf("%10s", name1);
@@ -115,7 +115,7 @@ int main() {
 
         race(distance, name1, name2);
 
-        printf("Another race? (j/n)");
+        printf("Another race? (y/n)");
         scanf("%c", &choice);
         getchar();
     }
