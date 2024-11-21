@@ -121,5 +121,6 @@ int main() {
     }
     system("cls");
     printf("\nBye Bye!\n\n");
+    sleep(3);
     return 0;
 }
